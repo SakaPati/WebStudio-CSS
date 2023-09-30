@@ -1,0 +1,56 @@
+/* Navigation */
+.Web {
+    color: #2196F3;
+    font-size: 26px
+}
+
+.StudioB {
+    color: #000;
+    font-size: 26px;
+}
+
+.StudioW {
+    color: #FFFFFF;
+    font-size: 26px;}
+
+.nav {
+    color: #000;
+}
+
+.contact{
+    color: #757575;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* MAIN */
+
+h1 {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+
+button{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.ops{
+    color: #757575;
+}
+
+.teamname{
+    color: #757575;
+}
+
+/* footer */
+
+footer{
+    background-color: #2F303A;
+}
+
+.ST{
+    color: #FFFFFF;
+}
