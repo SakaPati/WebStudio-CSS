@@ -1,24 +1,29 @@
 /* Navigation */
-.Web {
-    color: #2196F3;
-    font-size: 26px
+:root{
+    --mainfoot-color: #757575;
+    --webcolor: #2196F3;
+    --websize: 26px;
+    --studiocolor: #000;
+    --studiocolor2: #FFFFFF;
+    --backcolor: #2F303A;
 }
-
-.StudioB {
-    color: #000;
-    font-size: 26px;
+.web {
+    color: var(--webcolor);
+    font-size: var(--websize)
 }
-
-.StudioW {
-    color: #FFFFFF;
-    font-size: 26px;}
+.studiob {
+    color: var(--studiocolor);
+    font-size: var(--websize);
+}
+.studiow {
+    color: var(--studiocolor2);
+    font-size: var(--websize);}
 
 .nav {
-    color: #000;
+    color: var(--studiocolor);
 }
-
 .contact{
-    color: #757575;
+    color: var(--mainfoot-color);
 }
 
 a{
@@ -28,29 +33,27 @@ a{
 /* MAIN */
 
 h1 {
-    background-color: #2F303A;
-    color: #FFFFFF;
+    background-color: var(--backcolor);
+    color: var(--studiocolor2);
 }
 
 button{
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--webcolor);
+    color: var(--studiocolor2);
 }
 
-.ops{
-    color: #757575;
+.description{
+    color: var(--mainfoot-color);
 }
 
 .teamname{
-    color: #757575;
+    color: var(--mainfoot-color);
 }
 
 /* footer */
-
 footer{
-    background-color: #2F303A;
+    background-color: var(--backcolor);
 }
-
-.ST{
-    color: #FFFFFF;
+.address{
+    color: var(--studiocolor2);
 }
